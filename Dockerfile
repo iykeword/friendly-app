@@ -8,4 +8,4 @@ RUN pip install --no-cache-dir --upgrade pip && pip install --no-cache-dir -r re
 
 COPY . .
 
-CMD ["python", "app.py"]
+CMD ["python", "friendly-app.py"]
